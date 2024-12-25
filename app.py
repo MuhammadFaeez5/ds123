@@ -9,8 +9,8 @@ st.set_page_config(
 )
 st.sidebar.title("Sidebar")
 st.sidebar.write("Use the links below to view other files:")
-st.sidebar.write("[Sales Prediction](http://localhost:8501/)", unsafe_allow_html=True)
-st.sidebar.write("[AskMe](http://localhost:8501/AskMe)", unsafe_allow_html=True)
+st.sidebar.write("[Sales Prediction](https://salaryprediction5.streamlit.app/)", unsafe_allow_html=True)
+st.sidebar.write("[AskMe](https://salaryprediction5.streamlit.app/AskMe)", unsafe_allow_html=True)
 
 st.title("Salary Prediction App")
 st.divider()
